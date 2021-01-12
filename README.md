@@ -1,6 +1,6 @@
 # Image-Captioning
 ## Description
-In this project we combine Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) knowledge to build a deep learning model that produces captions given an input image.
+This project is a combination of Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) knowledge, to build a deep learning model that produces captions given an input image.
 
 Image captioning requires that you create a complex deep learning model with two components: a CNN that transforms an input image into a set of features, and an RNN that turns those features into rich, descriptive language.
 
@@ -24,6 +24,5 @@ The CNN encoder is followed by a recurrent neural network that generates a corre
 The RNN-Decoder consists in a single LSTM layer followed by one fully-connected (linear) layer, this architecture was presented from the paper Show and Tell: A Neural Image Caption Generator (2014) https://arxiv.org/pdf/1411.4555.pdf (figure 3.1)
 
 ## CNN-RNN model
-Now that we have our chosen architecture for the encoder and the decoder, we can look at the whole picture of our image captioning system !
 
-By merging the CNN encoder and the RNN decoder, we can get a model that can find patterns in images and then use that information to help generate a description of those images. The input image will be processed by a CNN and we will connect the output of the CNN to the input of the RNN which will allow us to generate descriptive text.
+By merging the CNN encoder and the RNN decoder, a model is generated that can find patterns in images and then use that information to help generate a description of those images. The input image will be processed by a CNN and we will connect the output of the CNN to the input of the RNN which will allow us to generate descriptive text.
